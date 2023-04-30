@@ -1,128 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre Nosotros</title>
-        <link rel="icon" href="../img/Logo.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../css/style.css">
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Asap+Condensed:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="icon" href="../img/Logo.ico" type="image/x-icon">
+    <!-- Link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK SEO -->
+    <meta name="description" content="Conoce la historia y propósito de Fita">
+    <meta name="keywords" content="Fita, nosotros, historia, misión, visión">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Asap+Condensed:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
 <body>
-    <header>
-        <!-- NAV BAR -->
-        <nav class="navbar fntAsap allWidth flxBetween flxAlgnCenter">
-
-            <!-- Logo -->
-            <div><a href="../index.html"><img src="../img/logo-letras-derecha.png" alt="Logo de Fita" height="60px" width=""></a></div>
+    <div class="container-fluid">
+        <header>
+            <div class="row">
+                <!-- NAV BAR -->
+                <nav class="navBar fntAsap allWidth d-flex flxBetween flxAlgnCenter">
+        
+                    <!-- Logo -->
+                    <div><a href="../index.html"><img src="../img/logo-letras-derecha.png" alt="Logo de Fita" height="60px" width=""></a></div>
+                    
+                    <!-- Menu de navegacion -->
+                    <ul>
+                        <!-- Checkbox para el menú de Hamburguesa -->
+                        <input type="checkbox" id="checkbox_toggle" />
+                        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                        <!-- Links de Navegación -->
+                        <div class="menu">
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="nosotros.html" class="active">Sobre Nosotros</a></li>
+                            <li><a href="menu.html">Menú</a></li>
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="ubicaciones.html">Dónde Encontrarnos</a></li>
+                        </div>
+                    </ul>
+                  </nav>
+            </div>
             
-            <!-- Menu de navegacion -->
-            <ul>
-                <!-- Checkbox para el menú de Hamburguesa -->
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <!-- Links de Navegación -->
-                <div class="menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html" class="active">Sobre Nosotros</a></li>
-                    <li><a href="menu.html">Menú</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="ubicaciones.html">Dónde Encontrarnos</a></li>
+            <div class="row hero banner padding80">
+                <div class="espacio30"></div>
+
+                <div class="flex vflex flxEnd allHeight flxAlgnCenter">
+                    <div class="flex flxCenter flxAlgnCenter vflexMobile gap20">
+                        <div class="circulo"> </div>
+                        <h1 class="fw-bold">SOBRE NOSOTROS</h1>
+                    </div>
+                    <div class="espacio30"></div>
                 </div>
-            </ul>
-          </nav>
-        <!-- HERO -->
-        <div class="hero banner padding80">
-            <div class="espacio30"></div>
+            </div>
 
-            <div class="flex vflex flxEnd allHeight flxAlgnCenter">
-                <div class="flex flxCenter flxAlgnCenter vflexMobile gap20">
-                    <div class="circulo"> </div>
-                    <h1>Sobre Nosotros</h1>
+        </header>
+       
+    
+        <main>
+            <div class="row">
+                <div class="col-1 col-lg-3"></div>
+                <div class="col-lg-6 col-10 pt-5">
+                    <p class="txtJustify">
+                        Sabemos que la comida no solo alimenta el cuerpo, sino también el alma; por eso nos esforzamos en ofrecer una experiencia culinaria excepcional a nuestros clientes. Nuestro equipo de cocina trabaja para garantizar la calidad y frescura de nuestros productos, así como para desarrollar nuevos y emocionantes platos para satisfacer tus demandas.
+                    </p>
                 </div>
-                <div class="espacio30"></div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="espacio60"></div>
-        <div id="grid-nosotros" class="grid txtJustify flxAlgnCenter padding80">
-            <div id="nosotros-parrafocent">
-                <p class="centerDiv">
-                    Sabemos que la comida no solo alimenta el cuerpo, sino también el alma; por eso nos esforzamos en ofrecer una experiencia culinaria excepcional a nuestros clientes. Nuestro equipo de cocina trabaja para garantizar la calidad y frescura de nuestros productos, así como para desarrollar nuevos y emocionantes platos para satisfacer tus demandas.
-                </p>
+                    <div class="col-1 col-lg-3"></div>
             </div>
 
-            <div id="nosotros-txtMision">
-                <h2 class="txtSubtitulo txtUppercase">Nuestra Misión</h2>
-                <div class="espacio30"></div>
+            <div class="row pt-5 align-items-center">
+                <div class="col-1 col-lg-1"></div>
 
-                <p>
-                    En Fita, nuestra misión es proporcionar opciones de alimentación saludable y sostenible que sean fáciles de encontrar, preparar y disfrutar. Creemos que la alimentación saludable y sostenible debería ser accesible para todos. Nos esforzamos por ofrecer opciones deliciosas y de alta calidad que satisfagan tus necesidades mientras cuidamos del medio ambiente.
-                </p>
+                <div class="col-lg-5 col-10 sideNosotros">
+                    <h2 class="pb-4 text-uppercase fntAsap txt22">Nuestra Misión</h2>
+                    <p class="txtJustify">En Fita, nuestra misión es proporcionar opciones de alimentación saludable y sostenible que sean fáciles de encontrar, preparar y disfrutar. Creemos que la alimentación saludable y sostenible debería ser accesible para todos. Nos esforzamos por ofrecer opciones deliciosas y de alta calidad que satisfagan tus necesidades mientras cuidamos del medio ambiente.</p>
+                </div>
+                <div class="col-lg-5 col-10 sideNosotros mx-auto">
+                    <img src="../img/cooking-bro.png" class="w-100">
+                </div>
+
+                <div class="col-1 col-lg-1"></div>
             </div>
 
-            <div id="nosotros-imgMision">
-                <img src="../img/cooking-bro.png" width="100%" height="auto">
+            <div class="row pt-5 align-items-center">
+
+                <div class="col-1 col-lg-1 order-lg-0"></div>
+
+                <div class="col-lg-5 col-10 sideNosotros order-lg-2">
+                    <h2 class="pb-4 text-uppercase fntAsap txt22">Nuestras Metas</h2>
+                    <ul class="check-ul fntArima">
+                        <li>Proporcionar opciones saludables y sostenibles para la alimentación diaria.</li>
+                        <li>Ofrecer una variedad de opciones veganas y vegetarianas para satisfacer las necesidades alimentarias de todos.</li>
+                        <li>Promover la sostenibilidad y la responsabilidad ambiental.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-10 sideNosotros mx-auto order-lg-1">
+                    <img src="../img/eating-bro.png" class="w-100">
+                </div>
+
+                <div class="col-1 col-lg-1 order-lg-3"></div>
             </div>
 
-            <div id="nosotros-txtMetas">
-                <h2 class="txtSubtitulo txtUppercase">Nuestras metas</h2>
-                <div class="espacio30"></div>
+            <div class="row">
+                <div class="col-1 col-lg-3"></div>
 
-                <ul class="check-ul fntArima">
-                    <li>Proporcionar opciones saludables y sostenibles para la alimentación diaria.</li>
-                    <li>Ofrecer una variedad de opciones veganas y vegetarianas para satisfacer las necesidades alimentarias de todos.</li>
-                    <li>Promover la sostenibilidad y la responsabilidad ambiental.</li>
-                </ul>
-            </div>
+                <div class="col-lg-6 col-10 text-center d-flex justify-content-center pt-5">
+                    <div class="text-center">
+                        <h2>Estamos comprometidos con la sostenibilidad</h2>
+                        <p class="pt-3">Nuestra empresa está comprometida con la sostenibilidad, por lo que nuestros productos siempre se empaquetarán y entregarán de forma responsable. Utilizamos materiales de embalaje biodegradables y reciclables, como bolsas de papel, recipientes de plástico reutilizables y cajas de cartón reciclado. Fita también se compromete a recolectar, reciclar y reutilizar los materiales de embalaje de cada una de tus compras.</p>
+                    </div>
+                </div>
 
-            <div id="nosotros-imgMetas">
-                <img src="../img/eating-bro.png" width="100%" height="auto">
+                <div class="col-1 col-lg-3"></div>
             </div>
 
-            <div id="nosotros-txtSostenible" class="txtCenter">
-                <h2>Estamos comprometidos con la sostenibilidad</h2>
-                <div class="espacio30"></div>
-                <p class="centerDiv">
-                    Nuestra empresa está comprometida con la sostenibilidad, por lo que nuestros productos siempre se empaquetarán y entregarán de forma responsable. Utilizamos materiales de embalaje biodegradables y reciclables, como bolsas de papel, recipientes de plástico reutilizables y cajas de cartón reciclado. Fita también se compromete a recolectar, reciclar y reutilizar los materiales de embalaje de cada una de tus compras.
-                </p>
+            <div class="row">
+                <div class="lg-12 col-12 text-center">
+                    <img src="../img/mundo.png" class="w-75" style="max-width: 450px;">
+                </div>
             </div>
-
-            <div id="nosotros-imgSostenible">
-                <img src="../img/mundo.png" width="100%" height="auto">
-            </div>
-        </div>
-
-        <div class="espacio60"></div>
-
-    </main>
-    <footer class="bg-oscuro">
-        <!-- FOOTER -->
-        <div class="flex vflex flxAlgnCenter gap20" >
-          <img src="../img/logo-letras-derecha.png" height="92px" width="160px">
-          <div class="flex flxAlgnCenter footer__SMlogos gap25">
-            <div class="SMlogo">
-              <img src="../img/sm-instagram.svg">
-            </div>
-            <div class="SMlogo">
-              <img src="../img/sm-whatsapp.svg">
-            </div>
-            <div class="SMlogo">
-              <img src="../img/sm-pinterest.svg">
-            </div>
-            <div class="SMlogo">
-              <img src="../img/sm-youtube.svg">
-            </div>
-          </div>
-          <p class="txtBlanco">Copyright ©Fita 2023 | www.fita.co </p>
-        </div>
-    </footer>
-
+        </main>
+        <footer class="row d-flex align-items-center flex-column text-center bg-oscuro gap20">
+            <!-- FOOTER -->
+            <div class="text-center"><img src="../img/logo-letras-derecha.png" width="160px" height="auto"></div>
+            <div class="d-flex flxAlgnCenter justify-content-center footer__SMlogos gap25">
+                <button class="SMlogo SMfooter" onclick='location.href="https://www.instagram.com/"'>
+                  <img src="../img/sm-instagram.svg">
+                </button>
+                <button class="SMlogo SMfooter" onclick='location.href="https://www.whatsapp.com/?lang=es"'>
+                  <img src="../img/sm-whatsapp.svg">
+                </button>
+                <button class="SMlogo SMfooter" onclick='location.href="https://www.pinterest.es/"'>
+                  <img src="../img/sm-pinterest.svg">
+                </button>
+                <button class="SMlogo SMfooter" onclick='location.href="https://www.youtube.com/"'>
+                  <img src="../img/sm-youtube.svg">
+                </button>
+              </div>
+            <p class="text-white">Copyright ©Fita 2023 | www.fita.co</p>
+          </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
