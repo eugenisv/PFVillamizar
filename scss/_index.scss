@@ -1,0 +1,114 @@
+#indexHero {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(33, 41, 34, 0) 6.77%, #212922 100%),url(../img/burger-hero.png);
+    background-blend-mode: hard-light, normal;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#hero-container {
+    height: 100%;
+    padding-top: 5vh;
+}
+
+#indexhero-content {height: 100%;}
+
+#fita-hero {font-size: 246px; text-transform: capitalize;}
+
+.indexhero__SMlogos {
+    position: absolute;
+    left: 120px;
+    bottom: 30%;
+    gap: 15px;
+}
+
+.SMlogo {
+    background: var(--color-trans);
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.razonFita {
+    width: calc(100%/3);
+    gap: 20px;
+    align-items: center;
+}
+
+.razonFita img {height: 50px; width: 50px;}
+
+#razones-container {gap: 100px;}
+
+/* Carousel menu */
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-item {width: 267px; border-radius: 11px; overflow: hidden; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); margin-bottom: 5px;}
+.carousel-content {padding-left: 18px; padding-bottom: 18px;} 
+
+.carousel-wrapper {overflow: hidden;}
+
+.carousel-control {position: absolute; top: 50%; border-radius: 50%; padding: 0; width: 36px; height: 36px; font-weight: bold;}
+.carousel-control-prev {left: -10px;}  
+.carousel-control-next {right: -10px;}
+.carousel-item p {font-size: var(--fntSize-txtPeq);}
+.puntuacionMenu {margin-top: 15px;}
+
+
+/* Ingredientes */
+.vIngredientes-container {
+    position: relative;
+    height: 500px;
+}
+
+.vIngredientes-item {
+    width: calc(100% / 7);
+    padding: 60px 0 60px 0px;
+    background-color: var(--color-claro);
+    border-right: 2px solid var(--color-white);
+}
+
+.vIngredientes-item p {
+    max-width: 138px;
+    margin-left: 20px;
+}
+.vIngredientes-item p span {
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 400;
+    font-size: var(--fntSize-txtSubttl);
+}
+
+.vIngredientes-item img {
+    align-self: center;
+    width: 80%;
+    height: auto;
+}
+
+#verMasIngredientes {
+    width: calc(2* (100%/7));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/ingredientes-varios.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/* Encuentranos - Ubicaciones */
+.contUbicaciones {
+    width: 50%;
+    height: 700px;
+}
+
+#imgIndexUbicaciones {
+    background: url(../img/restaurante-personas-comiendo.jpg);
+    background-position: center;
+    background-size: cover;
+}

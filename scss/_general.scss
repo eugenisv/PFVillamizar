@@ -1,0 +1,28 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GENERALES */
+:root {
+    --color-white: #FFF;
+    --color-black: #212922;
+    --color-destaque: #01A437;
+    --color-claro: #ACE894;
+    --color-CTA: #E55934;
+    --color-trans: #F8F8F81A;
+    --fntSize-txtNormal: 16px;
+    --fntSize-txtSubttl: 22px;
+    --fntSize-txtTtl: 40px;
+    --fntSize-txtPeq: 14px;
+    --fntSize-txtH1-desktop: 96px;
+    --fntSize-txtH1-mobile: 64px;
+}
+
+@font-face {
+    font-family: 'Fonarto';
+    src: url(../fonts/fonarto.ttf);
+}

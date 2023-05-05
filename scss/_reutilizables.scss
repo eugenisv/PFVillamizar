@@ -1,0 +1,29 @@
+/* REUTILIZABLES */
+.circulo {
+    height: 92px;
+    width: 92px;
+    border-radius: 50%;
+    background-color: var(--color-destaque);
+}
+
+.hero {height: 35vh; padding-bottom: 30px; color: var(--color-black);}
+
+.banner {
+    background: linear-gradient(0deg, rgba(172, 232, 148, 0.7), rgba(172, 232, 148, 0.7)), url(../img/fondo-blanco-lineas.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-productos{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 60px;
+}
+
+.background-CTA {background-color: var(--color-CTA);}
+
+.check-ul {list-style-image: url(../img/checkmark.svg);}
+.check-ul li {margin-bottom: 8px;}
+
+/* Footer */
+.SMfooter {box-shadow: none;}

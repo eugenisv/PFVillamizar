@@ -1,0 +1,51 @@
+/* ELEMENTOS */
+
+ul {list-style: none; margin: 0;}
+
+a {
+text-decoration: none;
+color: var(--color-white);
+}
+
+a:hover {color: var(--color-white);}
+
+button {
+    font-family: 'Fonarto';
+    display: block;
+    font-size: var(--fntSize-txtSubttl);
+
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 16px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button-unfilled-white {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+}
+
+button:hover {
+    background-color: var(--color-destaque);
+}
+
+img {padding:0;margin: 0;}
+
+h1 {font-family: 'Asap Condensed', sans-serif; font-size: var(--fntSize-txtH1-desktop); text-transform: uppercase;}
+
+h2 {
+    font-family: 'Arima', cursive;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 500;
+}
+p {
+    font-family: 'Arima', cursive;
+    font-size: var(--fntSize-txtNormal);
+}

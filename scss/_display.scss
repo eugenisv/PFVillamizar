@@ -1,0 +1,38 @@
+/* DISPLAY */
+.grid {display: grid;}
+
+.allWidth {width: 100%;}
+
+.allHeight {height: 100%;}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.vflex {flex-direction: column;}
+
+.flxCenter {justify-content: center;}
+.flxAlgnCenter {align-items: center;}
+.flxAlgnStrt {align-items: baseline;}
+.flxBetween {justify-content: space-between;}
+.flxEnd {justify-content: flex-end;}
+
+.gap20 {gap:20px}
+.gap25{gap:25px}
+.gap8 {gap: 8px;}
+
+
+.centerDiv {width:60%; margin:0 auto;}
+.espacio60 {height: 60px;}
+.espacio30 {height: 30px;}
+
+.padding80 {padding: 0 10%;}
+
+.borderBox {box-sizing: border-box;}
+
+.bg-oscuro {background-color: var(--color-black);}
+
+.bgImgCC {
+    background-position: center;
+    background-size: cover;
+}

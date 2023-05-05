@@ -1,0 +1,32 @@
+/* TEXTO */
+.txtBlanco {color: var(--color-white);}
+
+.txtDestaque {color: var(--color-destaque);}
+
+.txtShadowBlanco {text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.5);}
+
+.txtCenter {text-align: center;}
+.txtJustify {text-align: justify;}
+.txtUppercase {text-transform: uppercase;}
+
+
+.fntAsap {
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.txt40 {font-size: var(--fntSize-txtTtl);}
+.txt22 {font-size: var(--fntSize-txtSubttl);}
+.txt96 {font-size: var(--fntSize-txtH1-desktop);}
+.txt14 {font-size: var(--fntSize-txtPeq)}
+.txtSubtitulo {font-family: 'Asap Condensed'; font-weight: 500; font-size: var(--fntSize-txtSubttl);}
+
+.fntArima {
+    font-family: 'Arima', cursive;
+    font-weight: 500;
+}
+
+.fntFonarto {
+    font-family: 'Fonarto', sans-serif;
+    font-weight: 700;
+}
